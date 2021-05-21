@@ -30,7 +30,108 @@ Colors
 /* *************** 
 *************** */
 body {
+  background-color:hsl(0, 0%, 100%);
   font-size: 15px;
   font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* *************** 
+Section: 
+Social Proof
+*************** */
+.container {
+  max-width: 310px;
+  height: 100vh;
+  margin: 50px auto;
+}
+
+/* *************** 
+Section:
+Header
+*************** */
+.header-span {
+  color:hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 1.9em;
+}
+
+.header p {
+  font-size: 0.9em;
+  margin: 30px 0;
+  line-height: 20px;
+  color:hsl(303, 10%, 53%);
+}
+
+/* *************** 
+Section:
+Rates
+*************** */
+.star-image img {
+  padding: 5px 2px;
+}
+
+.rate-1,
+.rate-2,
+.rate-3 {
+  color:hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 8px;
+  background-color:hsla(333, 80%, 67%, 5%);
+  padding: 10px;
+  margin: 15px 0;
+  line-height: 20px;
+}
+
+/* *************** 
+Section: 
+Reviews
+*************** */
+.reviews {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  color:hsl(300, 24%, 96%);
+  line-height: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color:hsl(300, 43%, 22%);
+  padding: 30px 30px;
+  font-size: 0.7em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reviews img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.name-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+.title {
+  color:hsl(333, 80%, 67%);
   font-weight: 400;
 }
