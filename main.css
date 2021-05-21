@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ************** 
+Colors
+************** */
+.dark-magenta {
+  color: hsl(300, 43%, 22%);
+}
+
+.light-magenta {
+  color: hsl(300, 24%, 96%);
+}
+
+.gray-magenta {
+  color: hsl(303, 10%, 53%);
+}
+
+.pink {
+  color: hsl(333, 80%, 67%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+/* *************** 
+*************** */
+body {
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+}
