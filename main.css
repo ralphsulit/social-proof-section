@@ -34,10 +34,8 @@ body {
   font-size: 15px;
   font-family: 'Spartan', sans-serif;
   font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  height: 100vh;
+  width: 100%;
 }
 
 /* *************** 
@@ -45,15 +43,21 @@ Section:
 Social Proof
 *************** */
 .container {
-  max-width: 310px;
-  height: 100vh;
-  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 310px;
+  text-align: center;
 }
 
 /* *************** 
 Section:
 Header
 *************** */
+.header {
+  margin-top: 80px;
+}
+
 .header-span {
   color:hsl(300, 43%, 22%);
   font-weight: 700;
@@ -63,7 +67,7 @@ Header
 .header p {
   font-size: 0.9em;
   margin: 30px 0;
-  line-height: 20px;
+  line-height: 25px;
   color:hsl(303, 10%, 53%);
 }
 
